@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #333;
+    background-color: #ffffff;
     margin: 0;
     overflow: hidden;
 }
@@ -16,8 +16,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.85);
+    height:100%;
+    background: rgba(0, 0, 0, 0.85);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +25,11 @@ body {
 }
 
 #nickname-box {
-    background: #222;
+    background: gray;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
 
 #nickname-box input {
@@ -105,9 +105,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #000000;
     font-size: 1.2em;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px 20px;
     border-radius: 5px;
     z-index: 100;
@@ -120,19 +120,19 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
-    color: #fff;
+    color: #ffffff;
 }
 
 #nivel-display {
     position: absolute;
     top: 40px;
     right: 10px;
-    color: #fff;
+    color: #ffffff;
 }
 
 #nick-display {
     position: absolute;
     top: 70px;
     right: 10px;
-    color: #fff;
+    color: #ffffff;
 }

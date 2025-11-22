@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    /* -------------------- FONDO DIA/NOCHE -------------------- */
+    /* -------------------- FONDO DIA/NOCHE --------------------*/ 
     function actualizarFondo() {
         if (score % 5 === 0) {
             juegoContenedor.classList.toggle("dia");
